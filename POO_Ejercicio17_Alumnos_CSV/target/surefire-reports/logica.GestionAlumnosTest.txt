@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: logica.GestionAlumnosTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec <<< FAILURE!
+logica.GestionAlumnosTest.testAlumnoNotaMasAlta()  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "logica.GestionAlumnos.alumnoNotaMasAlta()" because "logica.GestionAlumnosTest.gestionAlumnos" is null
+	at logica.GestionAlumnosTest.testAlumnoNotaMasAlta(GestionAlumnosTest.java:40)
+
+logica.GestionAlumnosTest.testNotaMedia()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "logica.GestionAlumnos.notaMedia(String)" because "logica.GestionAlumnosTest.gestionAlumnos" is null
+	at logica.GestionAlumnosTest.testNotaMedia(GestionAlumnosTest.java:27)
+
+logica.GestionAlumnosTest.testNombreCursos()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "logica.GestionAlumnos.nombreCursos()" because "logica.GestionAlumnosTest.gestionAlumnos" is null
+	at logica.GestionAlumnosTest.testNombreCursos(GestionAlumnosTest.java:45)
+
+logica.GestionAlumnosTest.testAlumnosCurso()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "logica.GestionAlumnos.alumnosCurso(String)" because "logica.GestionAlumnosTest.gestionAlumnos" is null
+	at logica.GestionAlumnosTest.testAlumnosCurso(GestionAlumnosTest.java:33)
+
